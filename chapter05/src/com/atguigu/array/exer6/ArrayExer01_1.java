@@ -3,7 +3,7 @@ package com.atguigu.array.exer6;
 /**
  * ClassName: ArrayExer01_1
  * Package: com.atguigu.array.exer6
- * Description:
+ * Description: 新增元素
  *
  * @Author xiayu_12@yeah.net
  * @Create 2024/8/31 16:12
