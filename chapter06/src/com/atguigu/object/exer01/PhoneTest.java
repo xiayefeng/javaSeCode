@@ -1,4 +1,4 @@
-package com.atguigui.object.exer01;
+package com.atguigu.object.exer01;
 
 /**
  * ClassName: PhoneTest

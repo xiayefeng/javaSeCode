@@ -1,4 +1,4 @@
-package com.atguigui.object.exer02;
+package com.atguigu.object.exer02;
 
 /**
  * ClassName: PersonTest

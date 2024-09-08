@@ -1,4 +1,4 @@
-package com.atguigui.object.exer03;
+package com.atguigu.object.exer03;
 
 /**
  * ClassName: MyDate
