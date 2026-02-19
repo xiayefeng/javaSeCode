@@ -1,0 +1,40 @@
+package com.atguigu07._abstract.exer2;
+
+public class HorlyEmployee extends Employee {
+    private double wage; //单位小时工资
+    private int hour; //月工作的小时数
+
+    public HorlyEmployee() {
+    }
+
+    public HorlyEmployee(String name, int number, MyDate birthday, double wage, int hour) {
+        super(name, number, birthday);
+        this.wage = wage;
+        this.hour = hour;
+    }
+
+    public double getWage() {
+        return wage;
+    }
+
+    public void setWage(double wage) {
+        this.wage = wage;
+    }
+
+    public int getHour() {
+        return hour;
+    }
+
+    public void setHour(int hour) {
+        this.hour = hour;
+    }
+
+    @Override
+    public double earnings() {
+        return wage * hour;
+    }
+
+    public String toString(){
+        return "HorlyEmployee[" + super.toString() + "]";
+    }
+}
